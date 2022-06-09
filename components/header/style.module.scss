@@ -1,5 +1,7 @@
 .header {
     height: 800px;
+    display: flex;
+    align-items: flex-end;
     
     .goldbg {
         display: block;
@@ -7,5 +9,11 @@
         height: 800px;
         clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
         background-image: linear-gradient(#F2D780, #CA8E34);
+        position: absolute;
+        z-index: -1;
+    }
+
+    .image {
+        display: flex;
     }
 }

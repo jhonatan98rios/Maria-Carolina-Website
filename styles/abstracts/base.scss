@@ -1,5 +1,7 @@
 
 .container {
+    margin: 0 auto;
+
     @include fullhd() {
         max-width: 1280px;   
     }
@@ -19,4 +21,36 @@
     @include mobile() {
 
     }
+}
+
+.font-primary {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-dark {
+    color: var(--dark);
+}
+
+.color-light {
+    color: var(--light);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary {
+    color: var(--secondary);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
 }

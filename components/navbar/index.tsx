@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <nav className={styles.navbar}>
 
-
+      
       
     </nav>
   )
