@@ -19,7 +19,7 @@
     }
 
     @include mobile() {
-
+        max-width: 98%;
     }
 }
 
@@ -47,6 +47,14 @@
     color: var(--secondary);
 }
 
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
 .flex {
     display: flex;
 }
@@ -55,10 +63,9 @@
     flex-direction: column;
 }
 
-.half-width {
-    width: 50%;
+.flex-column-tablet {
+    @include tablet {
+        flex-direction: column;
+    }
 }
 
-.full-width {
-    width: 100%;
-}

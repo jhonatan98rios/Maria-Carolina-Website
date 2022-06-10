@@ -48,8 +48,10 @@
         width: #{$w*10} + '%';
     }
 
-    .mw-#{$w * 10} {
-        max-width: #{$w*10} + '%';
+    .w-#{$w * 10}-tablet {
+        @include tablet {
+            width: #{$w*10} + '%';
+        }
     }
 }
 
