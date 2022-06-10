@@ -32,3 +32,34 @@
         padding-bottom: #{$space}px;
     }
 }
+
+@for $px from 8 through 64 {
+    .fs-#{$px} {
+        font-size: #{$px/16} + rem;
+    }
+
+    .lh-#{$px} {
+        line-height: #{$px/16} + rem;
+    }
+}
+
+@for $w from 1 through 10 {
+    .w-#{$w * 10} {
+        width: #{$w*10} + '%';
+    }
+
+    .mw-#{$w * 10} {
+        max-width: #{$w*10} + '%';
+    }
+}
+
+@each $position in $positions {
+    .ai-#{$position} {
+        align-items: flex-#{$position};
+    }
+    
+    .jc-#{$position} {
+        justify-content: flex-#{$position};
+    }
+}
+
