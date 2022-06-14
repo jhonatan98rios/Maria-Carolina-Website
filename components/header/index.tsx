@@ -2,18 +2,18 @@ import styles from './style.module.scss'
 
 export default function Header() {
   return (
-    <header className={styles.header}>
+    <header className={styles.header + " pt-8"}>
       <span className={styles.goldbg} />
 
-      <div className="container flex flex-column-tablet relative w-100 p-r-32 p-l-32">
-        <div className="flex w-40 w-100-tablet">
-          <h2 className="font-primary fs-48 lh-56 flex flex-column jc-end">
-            Precisa de um <br/> <strong> Advogado? </strong>
-            <span className="color-light m-t-32 flex"> Clique aqui <br/> agora mesmo </span>
+      <div className="container mx-auto columns-2 gap-8 flex flex-col md:flex-row">
+        <div className="flex items-end justify-items-end md:mb-16 xl:w-1/3 md:w-1/2 ml-8">
+          <h2 className="text-5xl lg:text-5xl md:text-4xl  font-display">
+            Precisa de um <br/> <strong> Advogado? </strong><br/><br/>
+            <span className="text-white"> Clique aqui <br/> agora mesmo </span>
           </h2>
         </div>
 
-        <div className="w-60 w-100-tablet">
+        <div className="xl:w-2/3 md:w-1/2">
           <img className={styles.image} src="./header/athemis.png" alt=""/>
         </div>
       </div>

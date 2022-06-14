@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-@import './abstracts/mixins.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
 @import './abstracts/base.scss';
-@import './abstracts/utils.scss';
+@import './abstracts/utils.scss'; */
+
+@import './abstracts/mixins.scss';
+@import './abstracts/variables.scss';
 
 
 html,
