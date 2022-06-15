@@ -3,6 +3,10 @@
     --secondary: #CA8E34;
     --dark: #111111;
     --light: #efefef;
+
+    --tw-gradient-from: #60D26A;
+    --tw-gradient-to: #27B43E;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 $spaces: (0, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80);

@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'contact-image': "url('/contact/bg.png')",
+      }
+    },
     fontFamily: {
       'display': ['Julius Sans One', 'sans-serif'],
     }
