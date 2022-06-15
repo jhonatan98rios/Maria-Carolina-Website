@@ -14,10 +14,10 @@ export default function Contact() {
 
         <button className={
           `${styles.button} flex justify-center items-center py-5 m-auto lg:mr-auto lg:ml-0
-            max-w-[50rem] rounded-2xl w-4/5 mt-12`
+            max-w-[50rem] rounded-2xl w-4/5 mt-12 px-8`
         }>
           <img src="header/whatsapp.png" alt="icone do whatsapp" className="mr-3.5 w-8" />
-          <p className="text-2xl text-white font-bold"> 24hs Flagrante ou Emergência </p>
+          <p className="text-2xl text-white font-bold text-left"> 24hs Flagrante ou Emergência </p>
         </button>
 
       </div>
