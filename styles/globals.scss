@@ -6,12 +6,12 @@
 @tailwind utilities;
 
 /* 
-@import './abstracts/base.scss';
 @import './abstracts/utils.scss'; */
 
+@import './abstracts/base.scss';
 @import './abstracts/mixins.scss';
 @import './abstracts/variables.scss';
-
+@import 'flickity/dist/flickity.min.css';
 
 html,
 body {
@@ -38,4 +38,12 @@ a {
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+}
+
+.flickity-viewport {
+  width: 100vw;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
 }

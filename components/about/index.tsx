@@ -9,7 +9,7 @@ export default function About() {
         </div>
 
         <div className="h-full flex justify-items-center items-center my-auto lg:w-1/2 px-8 mx-auto">
-          <p className="text-gray-900 text-2xl">
+          <p className="text-[#555555] text-2xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Leo duis ut diam quam nulla porttitor. Gravidad rutrum quisque non tellus orci ac auctor.
           </p>

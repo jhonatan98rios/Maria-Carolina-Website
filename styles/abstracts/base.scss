@@ -1,71 +1,7 @@
+.flickity-page-dot {
+    background-color: aliceblue;
 
-.container {
-    margin: 0 auto;
-
-    @include fullhd() {
-        max-width: 1280px;   
-    }
-
-    @include desktop() {
-        max-width: 960px;
-    }
-
-    @include widescreen() {
-        max-width: 1152px;
-    }
-
-    @include tablet() {
-        max-width: 95%;
-    }
-
-    @include mobile() {
-        max-width: 98%;
+    &.is-selected {
+        background-color: #F2D780;
     }
 }
-
-.font-primary {
-    font-family: 'Julius Sans One', sans-serif;
-}
-
-.font-bold {
-    font-weight: bold;
-}
-
-.color-dark {
-    color: var(--dark);
-}
-
-.color-light {
-    color: var(--light);
-}
-
-.color-primary {
-    color: var(--primary);
-}
-
-.color-secondary {
-    color: var(--secondary);
-}
-
-.absolute {
-    position: absolute;
-}
-
-.relative {
-    position: relative;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.flex-column-tablet {
-    @include tablet {
-        flex-direction: column;
-    }
-}
-
