@@ -9,7 +9,7 @@ export default function Card({ content }: IProps) {
   return (
     <div 
       className={`
-        bg-white w-11/12 max-w-[64rem] rounded-2xl p-8 drop-shadow-lg 
+        bg-white w-11/12 max-w-[64rem] rounded-2xl p-8 drop-shadow-lg text-2xl
         mx-4 min-h-[32rem] h-fit flex flex-col md:flex-row columns-2 gap-8 justify-center items-center
       `}
     >

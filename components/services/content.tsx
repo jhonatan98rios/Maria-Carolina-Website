@@ -18,11 +18,11 @@ export const content: IContent[] = [
     title: 'Direito Criminal',
     description: () => (
       <p>
-        <h4> Atuação em Delegacia de Polícia 24h: </h4> Acompanhamento para depoimentos; Acompanhamento de inquéritos policiais; Apoio para vitimas e familiares; Levantamento de provas favoráveis; Prisão em flagrante; Pedido de liberdade com e sem fiança; Preparação para depoimentos; Registro de boletim de ocorrência: Solicitação de medidas protetivas.
-        <h4> Atuação em Tribunais: </h4> Atuação em Tribunais Estaduais, Federais, STJ e STF; Recursos Criminais; Sustentações Orais perante os tribunais
-        <h4> Defesa em Processos Criminais: </h4> Audiência de Custódia; Acompanhamento de processos; Atuação em favor das vítimas; Defesa dos acusados;
+        <strong> Atuação em Delegacia de Polícia 24h: </strong> Acompanhamento para depoimentos; Acompanhamento de inquéritos policiais; Apoio para vitimas e familiares; Levantamento de provas favoráveis; Prisão em flagrante; Pedido de liberdade com e sem fiança; Preparação para depoimentos; Registro de boletim de ocorrência: Solicitação de medidas protetivas.
+        <strong> Atuação em Tribunais: </strong> Atuação em Tribunais Estaduais, Federais, STJ e STF; Recursos Criminais; Sustentações Orais perante os tribunais
+        <strong> Defesa em Processos Criminais: </strong> Audiência de Custódia; Acompanhamento de processos; Atuação em favor das vítimas; Defesa dos acusados;
             Habeas Corpus; Liberdade Provisória; Prisão domiciliar; Relaxamento de prisão; Revogação de prisão; Realização de Audiências; Tribunal do juri.
-        <h4> Execução Penal: </h4> Livramento Condicional: Progressão de Regime; Pedido de Transferência; Remição de Pena.
+        <strong> Execução Penal: </strong> Livramento Condicional: Progressão de Regime; Pedido de Transferência; Remição de Pena.
       </p>
     )
   },

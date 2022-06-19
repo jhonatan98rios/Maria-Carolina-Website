@@ -10,7 +10,7 @@ const Carousel = dynamic(() => import('./Carousel'), {
 
 export default function Services() {
   return (
-    <section className={styles.section}>
+    <section id="servicos" className={styles.section}>
 
       <div className="mx-auto py-12">
         <Carousel>

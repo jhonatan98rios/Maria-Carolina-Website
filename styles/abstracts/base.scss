@@ -5,3 +5,36 @@
         background-color: #F2D780;
     }
 }
+
+.menu-icon {
+    
+    //transform: translate(-50%, -50%);
+    width: 50px;
+    margin: 24px 0px;
+    zoom: .5;
+
+    @media(min-width: 1024px) {
+        display: none;
+    }
+
+    &:before,
+    &:after,
+    & div {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 6px;
+        border-radius: 3px;
+        margin: 7px 0;
+        transition: 0.5s;
+    }
+    &.active:before {
+        transform: translateY(12px) rotate(135deg);
+    }
+    &.active:after {
+        transform: translateY(-12px) rotate(-135deg);
+    }
+    &.active div {
+        transform: scale(0);
+    }
+}

@@ -4,6 +4,11 @@
     display: flex;
     align-items: flex-end;
     position: relative;
+    margin-top: 84px;
+
+    @media(min-width: 1024px) {
+        margin-top: 140px;
+    }
 
     @include tablet {
         align-items: normal;
@@ -23,10 +28,11 @@
             clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
         }
     }
+   
+}
 
-    .whatsapp {
-        position: fixed;
-        bottom: 32px;
-        right: 32px;
-    }
+.whatsapp {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
 }

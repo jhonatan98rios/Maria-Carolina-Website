@@ -2,7 +2,7 @@ import styles from './style.module.scss'
 
 export default function Header() {
   return (
-    <header className={styles.header + " pt-8"}>
+    <header className={styles.header + " bg-white pt-8 drop-shadow-md"}>
       <span className={styles.goldbg} />
 
       <div className="container mx-auto columns-2 gap-8 flex flex-col md:flex-row">
@@ -17,8 +17,8 @@ export default function Header() {
           <img className={styles.image} src="./header/athemis.png" alt=""/>
         </div>
       </div>
-      <a href="./" target="_blank">
-        <img className={styles.whatsapp} src="./header/whatsapp.png" alt="icone do whatsapp"/>
+      <a className={styles.whatsapp} href="./" target="_blank">
+        <img src="./header/whatsapp.png" alt="icone do whatsapp"/>
       </a>
     </header>
   )

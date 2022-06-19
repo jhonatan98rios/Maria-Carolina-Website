@@ -2,10 +2,10 @@ import styles from './style.module.scss'
 
 export default function Contact() {
   return (
-    <section className='py-24 bg-contact-image bg-no-repeat bg-center lg:bg-right-top bg-cover'>
+    <section id="contato" className='py-24 bg-contact-image bg-no-repeat bg-center lg:bg-right-top bg-cover'>
       <div className='container mx-auto'>
         <div className="max-w-[85%] sm:max-w-[70%] lg:max-w-[50%]">
-          <p className="text-3xl text-[#555555] pl-8">
+          <p className="text-2xl text-[#555555] pl-8">
             Atendimento consultivo das <strong> 8h às 18h </strong> de <strong> segunda à sexta </strong>, 
             por <strong> Instagram </strong> e <strong>Facebook</strong>. <br />
             Atuação em toda <strong>Grande São Paulo</strong> e <strong>Alto Tietê</strong>.
