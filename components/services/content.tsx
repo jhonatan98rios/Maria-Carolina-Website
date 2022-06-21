@@ -58,12 +58,13 @@ export const content: IContent[] = [
     title: 'Direito Contratual',
     description: () => (
       <ul>
+        <li> Organização de acordos, controle de documentos, ganho de eficiência na negociação com fornecedores, clientes e parceiros </li>
         <li> Elaboração, análise e revisão de contratos em geral; </li>
         <li> Ação revisional de cláusulas contratuais (contratos de adesão); </li>
         <li> Execução judicial e extrajudicial de contratos; </li>
         <li> Ação anulatória de cláusulas abusivas; </li>
-        <li> Consultoria preventiva de litígio; </li>
-        <li> Demais temas relacionados a contratos. </li>
+        <li> Consultoria preventiva de litígio e demais temas relacionados a contratos. </li>
+        <li>  </li>
       </ul>
     )
   },

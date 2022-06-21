@@ -1,0 +1,11 @@
+.card {
+    min-height: 930px;
+
+    @media (min-width: 1024px) {
+        min-height: 700px;
+    }
+
+    @media (min-width: 1440px) {
+        min-height: 624px;
+    }
+}

@@ -1,3 +1,6 @@
+import Link from "next/link";
+import React from "react";
+
 export default function Footer() {
   return (
     <footer className='bg-neutral-900 py-12'>
@@ -17,9 +20,27 @@ export default function Footer() {
         <div className='w-fit mx-auto sm:mx-0'>
           <h3 className="text-white mb-4 text-2xl"> Redes Sociais </h3>
           <ul className='flex gap-4'>
-            <li> <img src="footer/facebook.png" alt=""/> </li>
-            <li> <img src="footer/instagram.png" alt=""/> </li>
-            <li> <img src="footer/linkedin.png" alt=""/> </li>
+            <li> 
+              <Link href="">
+                <a rel="noreferrer noopener" target="_blank">
+                  <img src="footer/facebook.png" alt=""/>
+                </a>
+              </Link> 
+            </li>
+            <li>
+              <Link href="">
+                <a rel="noreferrer noopener" target="_blank">
+                  <img src="footer/instagram.png" alt=""/>
+                </a>
+              </Link> 
+            </li>
+            <li>
+              <Link href="">
+                <a rel="noreferrer noopener" target="_blank">
+                  <img src="footer/linkedin.png" alt=""/>
+                </a>
+              </Link> 
+            </li>
           </ul>
         </div>
       </div>

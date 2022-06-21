@@ -3,7 +3,7 @@ import styles from './style.module.scss'
 export default function About() {
   return (
     <section className="" id="sobre">
-      <div className="container flex flex-col lg:flex-row mx-auto py-16 lg:gap-24 gap-12">
+      <div className="container flex flex-col lg:flex-row mx-auto py-16 gap-12">
         <div className="mx-auto lg:h-1/3">
           <img className="md:ml-16 h-64 lg:h-1/3" src="./about/Carolina.png" alt=""/>
         </div>

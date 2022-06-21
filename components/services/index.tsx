@@ -12,7 +12,7 @@ export default function Services() {
   return (
     <section id="servicos" className={styles.section}>
 
-      <div className="mx-auto py-12">
+      <div className="mx-auto py-16">
         <Carousel>
           { content.map((item, index) => <Card content={item} key={index} />) }
         </Carousel>

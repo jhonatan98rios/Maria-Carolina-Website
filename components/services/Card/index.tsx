@@ -1,4 +1,4 @@
-
+import style from './style.module.scss'
 import { IContent } from '../content'
 
 interface IProps {
@@ -9,14 +9,15 @@ export default function Card({ content }: IProps) {
   return (
     <div 
       className={`
-        bg-white w-11/12 max-w-[64rem] rounded-2xl p-8 drop-shadow-lg text-2xl
-        mx-4 min-h-[32rem] h-fit flex flex-col md:flex-row columns-2 gap-8 justify-center items-center
+        ${style.card}
+        bg-white w-11/12 max-w-[72rem] rounded-2xl py-12 px-8 lg:p-8 drop-shadow-lg text-xl
+        mx-4 min-h-[32rem] h-fit flex flex-col lg:flex-row columns-2 gap-8 lg:justify-center items-center
       `}
     >
 
-      <img className="w-80 h-80" src={content.img.src} alt={content.img.alt} title={content.img.title}/>
+      <img className="w-[22.5rem] h-[22.5rem]" src={content.img.src} alt={content.img.alt} title={content.img.title}/>
 
-      <div className="md:w-3/5 text-[#555555]">
+      <div className="w-full lg:w-4/6 text-[#555555]">
         <h3 className="font-display mb-6"> { content.title } </h3>
         <> { content.description() } </>
       </div>

@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex items-end justify-items-end md:mb-16 xl:w-1/3 md:w-1/2 ml-8">
           <h2 className="text-5xl lg:text-5xl md:text-4xl  font-display text-[#333333]">
             Precisa de um <br/> <strong> Advogado? </strong><br/><br/>
-            <span className="text-white"> Clique aqui <br/> agora mesmo </span>
+            <span className="text-white drop-shadow-md"> Clique aqui <br/> agora mesmo </span>
           </h2>
         </div>
 
@@ -17,9 +17,7 @@ export default function Header() {
           <img className={styles.image} src="./header/athemis.png" alt=""/>
         </div>
       </div>
-      <a className={styles.whatsapp} href="./" target="_blank">
-        <img src="./header/whatsapp.png" alt="icone do whatsapp"/>
-      </a>
+      
     </header>
   )
 }
