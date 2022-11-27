@@ -8,11 +8,11 @@ export default function Footer() {
         <div className='w-fit mx-auto sm:mx-0'>
           <p className='text-white text-2xl mb-4'> Entre em contato </p>
           <span className='flex mb-2'>
-            <img src="footer/mail.png" alt=""/>
-            <p className='text-white ml-4 text-xl'> email@gmail.com </p>
+            <img src="footer/mail.png" alt="icon de email"/>
+            <p className='text-white ml-4 text-xl'> adv.carolinarios@gmail.com </p>
           </span>
           <span className='flex mb-2'>
-            <img src="footer/phone.png" alt=""/>
+            <img src="footer/phone.png" alt="icone de telefone"/>
             <p className='text-white ml-4 text-xl'> (11) 98961-3841 </p>
           </span>
         </div>
@@ -21,25 +21,19 @@ export default function Footer() {
           <h3 className="text-white mb-4 text-2xl"> Redes Sociais </h3>
           <ul className='flex gap-4'>
             <li> 
-              <Link href="">
-                <a rel="noreferrer noopener" target="_blank">
-                  <img src="footer/facebook.png" alt=""/>
-                </a>
+              <Link rel="noreferrer noopener" target="_blank" href="https://www.facebook.com/mecontadireitoo/">
+                <img src="footer/facebook.png" alt="icone do facebook"/>
               </Link> 
             </li>
             <li>
-              <Link href="">
-                <a rel="noreferrer noopener" target="_blank">
-                  <img src="footer/instagram.png" alt=""/>
-                </a>
+              <Link rel="noreferrer noopener" target="_blank" href="https://www.instagram.com/carolsuaadvogada/">
+                <img src="footer/instagram.png" alt="icone do instagram"/>
               </Link> 
             </li>
             <li>
-              <Link href="">
-                <a rel="noreferrer noopener" target="_blank">
-                  <img src="footer/linkedin.png" alt=""/>
-                </a>
-              </Link> 
+              {/* <Link rel="noreferrer noopener" target="_blank" href="">
+                <img src="footer/linkedin.png" alt="icone do linkedin"/>
+              </Link>  */}
             </li>
           </ul>
         </div>

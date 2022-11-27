@@ -14,18 +14,17 @@ export default function Contact() {
           </p>
         </div>
 
-        <Link href="https://wa.me/5511989613841">
-          <a 
-            rel="noreferrer noopener"
+        <Link 
+          href="https://wa.me/5511989613841"
+          rel="noreferrer noopener"
             target="_blank"
             className={
             `${styles.button} flex justify-center items-center py-5 m-auto lg:mr-auto xl:ml-0
               max-w-[50rem] rounded-2xl w-4/5 mt-12 px-8`
             }
-          >
-            <img src="header/whatsapp.png" alt="icone do whatsapp" className="mr-3.5 w-8" />
-            <p className="text-2xl text-white font-bold text-left"> 24hs Flagrante ou Emergência </p>
-          </a>
+        >
+          <img src="header/whatsapp.png" alt="icone do whatsapp" className="mr-3.5 w-8" />
+          <p className="text-2xl text-white font-bold text-left"> 24hs Flagrante ou Emergência </p>          
         </Link> 
 
       </div>

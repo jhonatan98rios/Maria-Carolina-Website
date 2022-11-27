@@ -9,7 +9,7 @@ export default function SEO() {
 
   return (
     <Head>
-      <title> { title } </title>
+      <title>{title}</title>
 
       <meta name="description" content={description} />
       <meta name="image" content={ico} />

@@ -14,7 +14,7 @@ export default function Header() {
         </div>
 
         <div className="xl:w-2/3 md:w-1/2">
-          <img className={styles.image} src="./header/athemis.png" alt=""/>
+          <img className={styles.image} src="./header/themis.png" alt="Imagem da Themis"/>
         </div>
       </div>
       

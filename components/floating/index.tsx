@@ -4,14 +4,13 @@ import styles from './style.module.scss'
 export default function Floating() {
 
   return (
-    <Link href="https://wa.me/5511989613841">
-      <a 
-        className={`${styles.whatsapp} absolute bottom-8 right-8`} 
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        <img src="./header/whatsapp.png" alt="icone do whatsapp"/>
-      </a>
-    </Link> 
+    <Link 
+      href="https://wa.me/5511989613841"
+      className={`${styles.whatsapp} fixed bottom-8 right-8 z-10`} 
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <img src="./header/whatsapp.png" alt="icone do whatsapp"/>
+    </Link>
   )
 }

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import styles from './style.module.scss'
 
@@ -26,15 +25,13 @@ export default function Navbar() {
       <div className="container mx-auto colums-2 flex flex-row-reverse lg:flex-row items-center justify-between h-full">
 
         <div className="mt-0 mb-auto mr-10 lg:my-auto">
-          <Link href="/">
-            <a>
-              <img 
-                className="w-60 lg:w-80" 
-                src="./navbar/logo-light.png" 
-                alt="Logo Maria Carolina dos Anjos - Advogada"
-              />
-            </a>
-          </Link>
+          <a href="#">
+            <img 
+              className="w-60 lg:w-80" 
+              src="./navbar/logo-light.png" 
+              alt="Logo Maria Carolina dos Anjos - Advogada"
+            />
+          </a>
         </div>
 
         <div className="text-white ml-10 lg:ml-0"> 
@@ -49,24 +46,24 @@ export default function Navbar() {
               className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:gap-16 text-2xl lg:text-3x pt-8 pb-4 lg:py-0"
             >
               <li>
-                <Link href="/">
-                  <a> Inicio </a>
-                </Link>
+                <a href="#">
+                  Inicio
+                </a>
               </li>
               <li> 
-                <Link href="#sobre">
-                  <a> Sobre nós </a>
-                </Link>
+                <a href="#sobre">
+                  Sobre nós
+                </a>
               </li>
               <li> 
-                <Link href="#servicos">
-                  <a> Serviços </a>
-                </Link>
+                <a href="#servicos">
+                  Serviços
+                </a>
               </li>
               <li> 
-                <Link href="#contato">
-                  <a> Entrar em contato </a>
-                </Link>
+                <a href="#contato">
+                  Entrar em contato
+                </a>
               </li>
             </ ul>
           )}

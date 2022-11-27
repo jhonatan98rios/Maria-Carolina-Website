@@ -1,16 +1,19 @@
-import Flickity from 'react-flickity-component'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
-const flickityOptions = {
-  initialIndex: 0
-}
 
-export default function Carousel({ children }) {
+
+export default function Carousel({ children }: { children: any[] }) {
 
   return (
-    <Flickity 
-      options={flickityOptions}
+    <Swiper
+      spaceBetween={0}
+      slidesPerView={'auto'}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+      className='overflow-visible'
     >
       {children}
-    </Flickity>
+    </Swiper>
   )
 }
