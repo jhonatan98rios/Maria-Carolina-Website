@@ -25,6 +25,7 @@ body {
 
   @include tablet() {
     font-size: 14px;
+    scroll-padding-top: 80px;
   }
 
   @include mobile() {
